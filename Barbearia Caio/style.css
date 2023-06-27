@@ -1,0 +1,67 @@
+  body{
+    background-color: #ebae85;
+  }
+  
+  .ulist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #16697A;
+    background-color: #16697A;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  .ulist__litens {
+    float: left;
+  }
+  .ulist__litens--left{
+    float: left;
+    margin-left: 2%;
+
+  }
+  
+  .ulist__litens a, .ulist__litens--left a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .ulist__litens a:hover {
+    background-color: rgb(13, 120, 153);
+  }
+  .ulist__litens--img{
+    position: absolute;
+    right: -20px;
+    width: 100px;
+    height: 120px;
+
+  }
+  .ulist__litens--img img{
+    display: flex;
+    max-width: 45%;
+    max-height: 45%;
+    
+  }
+
+.float-container{
+  display: flex;
+}
+.float-container__child {
+    flex: 1;
+
+    
+}  
+.float-container__child img {
+  width: 80%;
+  border-color: aliceblue;
+
+  
+}  
